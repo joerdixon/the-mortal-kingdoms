@@ -1,0 +1,253 @@
+/* CHARACTER/ITEM STYLING */
+
+/* COLOR PALLETTE */
+
+/* *****VARIABLES FOR COLOR HERE***** */
+
+/* General Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(129, 45, 45);
+    margin: 0;
+    padding: 0;
+}
+
+/* Attributes */
+
+.small {
+    font-size: 70%;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+}
+
+/* Top Bar */
+
+.top-bar {
+    background-color: #222;
+    position: sticky;
+    float: left;
+    width: 100%;
+    top: 0;
+    border-bottom: 3px solid goldenrod;
+}
+
+
+.nav-items {
+    float: right;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+    margin: 0px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+
+li.nav-link {
+    text-align: center;
+    height: 100%;
+    width: 15%;
+}
+
+.nav-real-link {
+    color: white;
+    font-family: 'Roberto Condensed', sans-serif;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+.header li {
+    list-style: none;
+    margin: 10px 30px;
+}
+
+/* MK Topbar Logo */
+
+.toplogo {
+    width: 65px;
+    height: 100%;
+}
+
+/* Top Bar Interactivity */
+
+
+li a:hover {
+    color: goldenrod;
+    font-size: 1.5em;
+}
+
+/* Main  */
+
+main {
+    /* Background Gradient */
+    /* background: #2A4DCE;
+    background: -moz-linear-gradient(left, #2A4DCE 0%, #1C6EA4 56%, #15BCC5 100%);
+    background: -webkit-linear-gradient(left, #2A4DCE 0%, #1C6EA4 56%, #15BCC5 100%);
+    background: linear-gradient(to right, #2A4DCE 0%, #1C6EA4 56%, #15BCC5 100%); */
+    /* End of Background Gradient */
+    background-image: url(../images/general-assets/parchmentpaper.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Name */
+
+.name {
+    display: block;
+    width: 40%;
+    min-width: 30%;
+    height: 250px;
+    padding: 0px;
+    /* Background Gradient */
+    /* background: #4D7CCE;
+    background: -moz-linear-gradient(45deg, #4D7CCE 0%, #14B4C5 100%);
+    background: -webkit-linear-gradient(45deg, #4D7CCE 0%, #14B4C5 100%);
+    background: linear-gradient(45deg, #4D7CCE 0%, #14B4C5 100%); */
+    background-color: beige;
+    /* End of Background Gradient */
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 3px #000000;
+}
+
+.actname {
+    padding: 10px;
+    font-family: 'Trebuchet MS';
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.epithet {
+    font-size: 2em;
+    font-style: italic;
+}
+
+/* Quote */
+
+.imgquote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 50px auto;
+}
+
+.quote {
+    background-color: beige;
+    display: inline-block;
+    width: 33%;
+    padding: 20px;
+    height: auto;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 22px;
+    letter-spacing: 1.4px;
+    word-spacing: 0.6px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    margin: auto;
+    margin-left: 135px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Main Image */
+
+.main-image {
+    display: inline-block;
+    width: 502px;
+    height: 642px;
+}
+
+/* Biography */
+
+.bio {
+    display: block;
+    width: 90%;
+    background-color: brown;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.bio-body-container {
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.bio-section-head {
+    padding: 10px;
+    background-color: #A6A27D;
+    margin: 10px auto;
+    font-family: 'Roberto Condensed', sans-serif;
+    border-radius: 10px;
+}
+
+#bio-body {
+    padding: 35px;
+    margin: 10px;
+    font-family: 'Trebuchet MS';
+    font-size: 1.3em;
+    line-height: 35px;
+}
+
+/* Metrics */
+
+.metrics {    
+    background-color: brown;
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 75px;
+    border-radius: 10px;
+}
+
+.met-table-container {
+    border-radius: 10px;
+    background-color: beige;
+}
+
+.met-section-head {
+    padding: 10px;
+    background-color: #A6A27D;
+    font-family: 'Roberto Condensed', sans-serif;
+    border-radius: 10px;
+}
+
+.metrics-table {
+    background-color: beige;
+    border-spacing: 50px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.met-row {
+    padding: 10px;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+.metrics h2 {
+    margin: 10px 0;
+}

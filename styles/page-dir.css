@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+}
+
+/* Top Bar */
+
+.top-bar {
+    background-color: #222;
+    position: sticky;
+    float: left;
+    width: 100%;
+    top: 0;
+    border-bottom: 3px solid goldenrod;
+}
+
+
+.nav-items {
+    float: right;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+    margin: 0px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+
+li.nav-link {
+    text-align: center;
+    height: 100%;
+    width: 15%;
+}
+
+.nav-real-link {
+    color: white;
+    font-family: 'Roberto Condensed', sans-serif;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+.header li {
+    list-style: none;
+    margin: 10px 30px;
+}
+
+/* MK Topbar Logo */
+
+.toplogo {
+    width: 65px;
+    height: 100%;
+}
+
+/* Top Bar Interactivity */
+
+
+li a:hover {
+    color: goldenrod;
+    font-size: 1.5em;
+}
+
+
+/* MAIN */
+
+main {
+    text-align: center;
+}
+
+/* Intro */
+
+.intro {
+    width: 100%;
+    height: 65vh;
+    display: block;
+    padding-top: 25vh;
+    background-color: #000033;
+}
+
+.intro h1 {
+    font-size: 3.5rem;
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
+.intro p {
+    padding-top: 100px;
+    color: white;
+}
+
+/* Player Characters Section */
+
+.pc-div {
+    height: 80vh;
+}
+
+/* Non-Player Characters Section */
+
+.npc-div {
+    height: 80vh;
+}
+
+/* Faction Section */
+
+.fac-div {
+    height: 80vh;
+}

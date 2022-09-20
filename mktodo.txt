@@ -1,0 +1,15 @@
+CODING
+-------------------------------------------------
+Finalize Landing Page
+
+Restructure navbar to have an slightly overlapping logo in the center.
+
+Create repo on GitHub
+
+DESCISIONS
+-------------------------------------------------
+Choose color scheme -> Black, White, ???, ???
+
+Choose 3 fonts for website.
+
+Standardize file system for longterm use.

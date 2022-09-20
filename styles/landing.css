@@ -1,0 +1,48 @@
+/* LANDING PAGE STYLESHEET */
+
+/* COLOR PALLETTE */
+
+/* *****VARIABLES FOR COLOR HERE***** */
+
+/* General Styling */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/* Hero Logo -> animation? */
+
+.hero-logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero-image {
+    width: 25%;
+    margin: 10px auto;
+}
+
+.hero-title {
+    text-align: center;
+    font-family:'Lucida Sans';
+    font-size: 40px;
+    color: white;
+}
+
+.down-arrow {
+    width: 10%;
+    margin: 0 auto;
+}
+
+.down-arrow img {
+    margin: 0 auto;
+    margin-top: 10vh;
+    width: 100%;
+    height: auto;
+}
